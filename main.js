@@ -1,4 +1,4 @@
-//Função para troca fonte do paragrafo 
+//01 Função para troca fonte do paragrafo 
 
 function mudaTamanhoFonte() {
 
@@ -6,13 +6,13 @@ function mudaTamanhoFonte() {
 
 }
 
-//Função muda cor de texto do paragrafo 
+//02 Função muda cor de texto do paragrafo 
 function mudaCorParagrafo() {
 
     document.getElementById("manipula").style.backgroundColor = "black";
 }
 
-//Funçõa mudar a fonte para italico 
+//03 Funçõa mudar a fonte para italico 
 function mudarFonteItalico() {
     document.getElementById("manipula").style.fontStyle = 'italic'
 }
@@ -81,5 +81,14 @@ for (let i = 0; i < botoes.length; i++) {
 
 
 */
+//botão 16 - substitui o segundo parágrafo por *** -->
+function substituiParagrafo() {
+    document.querySelector(".paragrafo").innerHTML = '***';
+}
 
+//botão 17 - troca a cor do backgroud da página -->
+
+function trocarCorPagina() {
+    document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
+}
 
