@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Botão</title>
 </head>
+
 <body>
     <h1>DOM-Document Object Model</h1>
 
     <main>
         <div id="manipula">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic consequuntur et ex, at facere, ratione quam cumque consequatur impedit error quod odit eum tempore deserunt, vel rerum praesentium molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic consequuntur et ex, at facere,
+                ratione quam cumque consequatur impedit error quod odit eum tempore deserunt, vel rerum praesentium
+                molestiae?</p>
 
             <p class="paragrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolor officia eum ullam facilis doloribus magnam laudantium saepe earum, quibusdam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolor officia eum ullam facilis
+                doloribus magnam laudantium saepe earum, quibusdam!
             </p>
         </div>
         <br>
         <hr>
-        <h2 class="chamada">Clique nos botões para executar alguma função</h2>
+        <h2 id="chamada">Clique nos botões para executar alguma função</h2>
 
         <div id="botoes">
             <!--botão 01 atualizar a página -->
@@ -27,46 +32,61 @@
 
             <!--Botão 02 - alterar  o tamanho da fonte-->
             <input type="button" name="" id="" value="atualizar" onclick="window.location.reload()">
-            
-            <!--Botão 02 - alterar a cor da fonte-->
+
+            <!--Botão 03 - alterar a cor da fonte-->
             <input type="button" name="" id="" value="botão 2" onclick="mudaTamanhoFonte()">
 
-            <!--Botão 02 - alterar a cor do backgroud da div-->
+            <!--Botão 04 - alterar a cor do backgroud da div-->
             <input type="button" name="" id="" value="botão 3" onclick="mudaCorParagrafo()">
 
             <input type="button" name="" id="" value="botão 4">
 
-            <input type="button" name="" id="" value="botão 5">
+            <!--  botão 05 - mudar a font dos parágrafos para itálico -->
+            <input type="button" name="" id="" value="botão 5" onclick="mudarFonteItalico()">
 
-            <input type="button" name="" id="" value="botão 6">
+            <!-- botão 06 - mudar a font dos parágrafor para negrito -->
+            <input type="button" name="" id="" value="botão 6" onclick="mudaFontNegrito()">
 
-            <input type="button" name="" id="" value="botão 7">
+            <!-- botão 07 - incluir uma border preta em volta da  div -->
+            <input type="button" name="" id="" value="botão 7" onclick="bordaPretaDiv()">
 
-            <input type="button" name="" id="" value="botão 8">
+            <!-- botão 08 - remover a border preta em volta da div -->
+            <input type="button" name="" id="" value="botão 8" onclick="removeBord()">
 
-            <input type="button" name="" id="" value="botão 9">
+            <!-- botão 09 - Esconder a div e parecer invisível -->
+            <input type="button" name="" id="" value="botão 9" onclick="esconderDiv()">
 
-            <input type="button" name="" id="" value="botão 10">
+            <!-- botão 10 - faz a div aparecer novamente -->
+            <input type="button" name="" id="" value="botão 10" onclick="fazDivAparecer()">
 
-            <input type="button" name="" id="" value="botão 11">
+            <!-- botão 11 - alterar o texto do h2 para "não mexer nesse botão" -->
+            <input type="button" name="" id="" value="botão 11" onclick="alterarTextoH2()">
 
-            <input type="button" name="" id="" value="botão 12">
+            <!-- botão 12 - mudar a cor do backgroud apenas do paragrado da classe "paragrafo" -->
+            <input type="button" name="" id="" value="botão 12" onclick="corParagrafo12()">
 
-            <input type="button" name="" id="" value="botão 13">
+            <!--  botão 13 - muda a cor apenas de um botão pelo nome da tag input -->
+            <input type="button" name="" id="" value="botão 13" onclick="mudarCorInput()">
 
-            <input type="button" name="" id="" value="botão 14">
+            <!-- botão 14 - muda a cor de todos os botões pelo nome da taf e uma lógica de array -->
+            <input type="button" name="" id="" value="botão 14" onclick="mudarCorTodosInput()">
 
-            <input type="button" name="" id="" value="botão 15">
+            <!-- botão 15 - conta quantos botões existem na página -->
+            <input type="button" name="" id="" value="botão 15" onclick="contaQuantosInputs()">
 
-            <input type="button" name="" id="" value="botão 16">
+            <!--  botão 16 - substitui o segundo parágrafo por *** -->
+            <input type="button" name="" id="" value="botão 16" onclick="">
 
-            <input type="button" name="" id="" value="botão 17">
+            <!-- botão 17 - troca a cor do backgroud da página -->
+            <input type="button" name="" id="" value="botão 17" onclick="">
 
-            <input type="button" name="" id="" value="botão 18">
+            <!-- botão 18 - é o que acontece com o aluno SENAI-Ford -->
+            <input type="button" name="" id="" value="botão 18" onclick="">
             <script src="/main.js"></script>
         </div>
-        
+
     </main>
 
 </body>
+
 </html>
