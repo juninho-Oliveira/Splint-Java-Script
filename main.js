@@ -112,4 +112,3 @@ function trocarImagem2() {
     document.getElementById("imagem").src = "/img-1.jpg"
 }
 
-
