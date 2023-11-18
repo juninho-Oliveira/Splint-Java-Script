@@ -6,13 +6,19 @@ function mudaTamanhoFonte() {
 
 }
 
-//02 Função muda cor de texto do paragrafo 
+//03 Função muda cor de texto do paragrafo 
+function alterarCorFont() {
+    document.getElementById("manipula").style.color = "white"
+}
+
+
+//Botão 04 - alterar a cor do backgroud da div
 function mudaCorParagrafo() {
 
     document.getElementById("manipula").style.backgroundColor = "black";
 }
 
-//03 Funçõa mudar a fonte para italico 
+//05 Funçõa mudar a fonte para italico 
 function mudarFonteItalico() {
     document.getElementById("manipula").style.fontStyle = 'italic'
 }
@@ -92,3 +98,5 @@ function trocarCorPagina() {
     document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
 }
 
+
+console.log('Olá Mundo!')
