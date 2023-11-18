@@ -46,7 +46,7 @@ function esconderDiv() {
 
 //botão 10 - faz a div aparecer novamente 
 function fazDivAparecer() {
-    document.getElementById("manipula").style.display = ''
+    document.getElementById("manipula").style.display = 'block'
 }
 
 
@@ -66,27 +66,29 @@ function mudarCorInput() {
     document.getElementsByTagName("input")[12].style.color = "white";
 }
 
-/*botão 14 - muda a cor de todos os botões pelo nome da tag e uma lógica de array
+//botão 14 - muda a cor de todos os botões pelo nome da tag e uma lógica de array
 function mudarCorTodosInput() {
     let botoes = document.getElementsByTagName("input");
     
-for (let i = 0; i < botoes.length; i++) {
-  botoes[i].style.backgroundColor = "#4CAF50"; // Verde
-  botoes[i].style.color = "white"; // Branco
+    for (let i = 0; i < botoes.length; i++) {
+        botoes[i].style.backgroundColor = "black"; 
+        botoes[i].style.color = "white";
+        botoes[i].style.border = '1px solid blue'
+        botoes[i].style.borderRadius = "5px" 
+    }
 }
-}*/
 
-/* botão 15 - conta quantos botões existem na página
+
+//botão 15 - conta quantos botões existem na página
 
 function contaQuantosInputs() {
-    let botoes = document.getElementsByTagName("input");
-    
-for (let i = 0; i < botoes.length; i++) {
-  quantidade = 
+    let  botoes = document.getElementsByTagName("input");
+    let total = botoes.length
+
+    return document.getElementById("chamada").innerHTML = `total de botões: ${total}`
 }
 
 
-*/
 //botão 16 - substitui o segundo parágrafo por *** -->
 function substituiParagrafo() {
     document.querySelector(".paragrafo").innerHTML = '***';
@@ -98,5 +100,5 @@ function trocarCorPagina() {
     document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
 }
 
+//botão 18 - é o que acontece com o aluno SENAI-Ford 
 
-console.log('Olá Mundo!')
