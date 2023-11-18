@@ -100,5 +100,9 @@ function trocarCorPagina() {
     document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
 }
 
-//botão 18 - é o que acontece com o aluno SENAI-Ford 
+//botão 18 - trocar a imagem
+
+function trocarImagem() {
+    document.getElementById("imagem").src = "/img-2.jpg"
+}
 
