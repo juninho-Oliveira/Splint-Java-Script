@@ -106,3 +106,10 @@ function trocarImagem() {
     document.getElementById("imagem").src = "/img-2.jpg"
 }
 
+
+//botão 19 - volta para imagem 
+function trocarImagem2() {
+    document.getElementById("imagem").src = "/img-1.jpg"
+}
+
+
